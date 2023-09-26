@@ -1,0 +1,58 @@
+/* privacy.css */
+
+/* Container styles */
+.privacy-policy-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+.headingterms {
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Paragraph styles */
+p {
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+/* List styles */
+ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+/* List item styles */
+li {
+  margin-bottom: 5px;
+}
+
+/* Link styles */
+a {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+/* Add more styles as needed */
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .privacy-policy-container {
+    padding: 10px;
+  }
+  .headingterms {
+    font-size: 24px;
+  }
+  p {
+    font-size: 14px;
+  }
+}

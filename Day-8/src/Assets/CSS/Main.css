@@ -1,0 +1,14 @@
+.main-container {
+
+    position: absolute;
+    right: 0;
+    height: 78vh;
+    width: 87.5%;
+    bottom: 0;
+    padding: 2%;
+}
+.hello{
+        position: absolute;
+        top: 16%;
+        right: 488.5px;
+}

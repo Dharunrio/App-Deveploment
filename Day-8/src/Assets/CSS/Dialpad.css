@@ -1,0 +1,45 @@
+.dialpad-container{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  
+}
+.dialpad {
+  width: 300px;
+  padding: 20px;
+  background-color: rgb(4 4 4);
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgb(255 0 0 / 50%);
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  width: 33.33%;
+  height: 80px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+  color: #fff;
+  background-color: #444;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.number {
+  background-color: #000000;
+}
+
+.empty {
+  background-color: transparent;
+}
+
+td:hover {
+  background-color: #555;
+}
+
+/* Add some additional styling for the container or surrounding elements if needed */
+
