@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap");
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    height: 4%;
+    background-color: white;
+    width: 100%;
+}
+
+.table-data {
+    padding: 20px !important;
+}
+
+.table-data:hover {
+    background-color: darkgray;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+::-webkit-scrollbar {
+    display: none;
+  }
+.bg-image {
+    position: relative;
+    height: 93vh;
+    width: 100%;
+    top: 0;
+    background-image: url('https://img.freepik.com/free-vector/digital-dark-wavy-background_23-2148388254.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    /* overflow: auto;   */
+}
+
+.contact-image {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../Images/contact1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.inner-content {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100vh;
+    width: 100%;
+    top: 0%;
+}
+
+.sign-group {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.sign-item {
+    display: inline;
+    color: white;
+    font-size: 20px;
+
+}
+.sign-item p {
+    display: block;
+    padding: 6px;
+    font-size: 20px;
+}
+
+.sign-item:hover {
+    background-color: darkgray;
+}
+
+.add-con-input::placeholder {
+    color: white;
+}
+
+.inner-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-list {
+    scroll-behavior: smooth;
+}
